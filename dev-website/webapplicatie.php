@@ -11,11 +11,13 @@
 </head>
 <body>
 
-<articel>
-    <h1>Aanvraag formulier<h1>
-</articel>
+
 
 <form action="webapplicatie.php" method="post">
+
+<article>
+    <h1>Aanvraag formulier<h1>
+</article>
 
 <section class="Voornaam">
     <input type="text" name="voornaam" placeholder="voornaam" required>
@@ -49,6 +51,10 @@
 
 <section class="Postcode">
     <input type="text" name="postcode" placeholder="postcode" required>
+</section>
+
+<section>
+    <button type="submit" class="submit-btn">Verstuur Gegevens</button>
 </section>
 
 

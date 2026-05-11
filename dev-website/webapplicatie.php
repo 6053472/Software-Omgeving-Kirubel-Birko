@@ -1,17 +1,3 @@
-<?php
-
-if(isset($_POST['submit'])){
-    $voornaam = $_POST('voornaam');
-    $voornaam = $_POST('tussenvoegsel');
-    $voornaam = $_POST('achternaam');
-    $voornaam = $_POST('geboortedatum');
-    $voornaam = $_POST('straatnaam');
-    $voornaam = $_POST('huisnummer');
-}
-
-?>
-
-
 
 <!DOCTYPE html>
 <html lang="nl">
@@ -20,7 +6,7 @@ if(isset($_POST['submit'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta author="Kirubel Birko">
     <meta tags="formulier, nieuwbrief">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Formulier</title>
 </head>
 <body>

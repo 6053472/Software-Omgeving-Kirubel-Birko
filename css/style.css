@@ -1,0 +1,23 @@
+form {
+    max-width: 210px;
+    margin: auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    border: 2px 2px 2px black;
+}
+
+
+form section {
+    margin-bottom: 30px;
+}
+
+form input {
+    width:200px;
+    font-weight: bold;
+}
+
+form input:hover{
+    background-color: aliceblue;
+}
